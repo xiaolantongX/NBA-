@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+ 	<link rel="stylesheet" type="text/css" href="css/Login.css"/>
+ 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+ 	<script  type="text/javascript">
+
+ 	function choose(num){
+ 		for (var i = 1;i<=3;i++) {
+ 			if(num==i){				
+ 				document.getElementById("text_log"+i).style.display="block";
+ 				document.getElementById("text_log"+i).style.color="lightgreen";
+ 				document.getElementById("choose_log"+i).style.background="rgba(197,197,197,0.9)";
+ 				/*$("#log_type+i").attr(che)*/
+ 			}
+ 			else{
+ 			document.getElementById("text_log"+i).style.display="none";
+ 			document.getElementById("text_log"+i).style.color="black";
+ 			document.getElementById("choose_log"+i).style.background="rgba(255,255,255,0.9)";
+ 			}
+ 		}
+ 	}
+ 	</script>
+</head>
+<body>
+<div id="login_body">
+<div id="header">
+    <!--头部中间信息-->
+    <div class="h_center">
+        <p>欢迎来到球员管理系统：请先登录！</p>
+    </div>
+</div>
+        <ul>
+            <li><div id="choose_log1" class="cl" >用户登录</div>
+            </li>
+            <li><div id="choose_log2" class="cl" >管理员登录</div>
+            </li>
+            <li><div id="choose_log3" class="cl" >超管登录</div>
+            </li>
+        </ul>
+   	 	<div class="login_b_center">
+
+       	 <div class="login_bg">
+            <h1 id="text_log1">用户登录</h1>
+            <h1 id="text_log2">管理员登录</h1>
+            <h1 id="text_log3">超级管理员登录</h1>
+            <form action="\pms\LoginServlet" id="login" method="post">
+
+                <div class="userName">
+                    <span></span><input type="text" name="user_name">
+                </div>
+
+                <div class="password">
+                    <span></span><input type="password" name="password">
+                </div>
+
+                <div id="choose" >
+                <input id="log_type1" type="radio" name="log_type"  value="user" style="width:20px;height: 20px" onclick="choose(1)" checked>我是篮球迷<br>
+                <input id="log_type2" type="radio" name="log_type" value="manage" style="width:20px;height: 20px" onclick="choose(2)">我是管理员<br>
+                <input id="log_type3" type="radio" name="log_type" value="super_man" style="width:20px;height: 20px" onclick="choose(3)">我是这里的老大
+                </div>
+                <div class="login_btn">
+                    <a href="">
+                        <input type="submit"  value="登录">
+                    </a>
+                </div>
+                <div class="forgot_password">
+                    <a href="Register.jsp">注册账号</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
