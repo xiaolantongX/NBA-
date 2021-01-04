@@ -1,0 +1,134 @@
+*{
+	margin: auto;
+}
+#header{
+	background-color: gainsboro;
+		border-bottom: darkgray;
+}
+#header .header_img{
+
+	position: relative;
+	width: 100%;
+
+}
+
+#midd{
+	position: absolute;
+	margin-left: 309px;
+	width: 1000px;
+	height: 800px;
+	border-left: 2px solid darkgray;
+	border-right: 2px solid darkgray;
+	
+}
+#midd .head_shot{
+	border: 3px solid rosybrown;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 350px;
+	height: 350px;
+	}
+#midd .head_shot img{
+	width: 350px;
+	height: 350px;
+	}
+#midd>img{
+	margin-top: 100px;
+		position: relative;
+		width: 160px;
+		height: 100px;
+		left: 0px;
+	}
+#midd .Player_name{
+		color: deeppink;
+		margin-top: 20px;
+		margin-left: 60px;
+		position: absolute;
+		/*border: 1px solid rosybrown;*/
+		width: 300px;
+		height: 60px;
+		/*padding-left:40px ;*/
+		font-size: 50px;
+}
+#midd .line1{
+	margin-left: 0px;
+	margin-top: 30px;
+	background-color: grey;
+	position: absolute;
+	width: 1002px;
+	height: 3px;
+}
+#midd .Team_name{
+		
+		position: absolute;
+		margin-top: 140px;
+		/*border: 1px solid rosybrown;*/
+		font-size:30px ;
+		width: 200px;
+		height: 40px;
+	}
+#midd .data_show {
+		background-color: gray;
+		position: relative;
+		/*border-bottom:  1px solid ;*/
+		margin-top: 35px;
+	}
+#midd .list_mes {
+/*	margin-left: 50px;*/
+	position: relative;
+	margin-left: 380px;
+	/*border: 1px solid red;*/
+	width: 300px;
+	
+}
+#midd .list_mes li{
+	list-style-type: none;
+	padding-top: 5px;
+	font-size: 24px;
+}
+#midd .data_show ul li{
+	display: inline-block;
+	padding-right: 60px;
+	font-size: 30px;
+}
+#midd .data_show ul li a{
+	color: pink;
+	text-decoration: none;
+}
+#midd .comment{
+	
+	/*border: 1px solid red;*/
+	height: 300px;
+}
+#midd .comment .sub_com{
+	position: relative;
+	margin-top: 0px;
+	margin-left: 30px;
+	font-size: 20px;
+	padding: 3px;
+	width: 80px;
+	height: 50px;
+}
+#midd .comment .wit_com {
+	position: absolute;
+	margin-left: 5px ;
+	margin-top: 225px ;
+}
+#midd .comment .show_com{
+	position: absolute;
+	/*border: 1px solid black;*/
+	width: 1000px;
+	height: 215px;
+}
+
+#midd .comment .com_tab {
+	position: absolute;
+	
+}
+#midd .comment .com_tab .com_user_name{
+	width: 100px
+}
+#midd .comment .com_tab .user_com{
+	width: 900px
+}

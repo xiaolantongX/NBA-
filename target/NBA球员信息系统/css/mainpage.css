@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#head .log_left{
+	float: left;
+}
+#head .log_right{
+	float: right;
+}
+#head .head_img{
+	margin-top: 0px;
+	position: absolute;
+	width: 1102px;
+	height: 110px;
+	float: left;
+}
+
+#head .single_btn{
+	float: left;
+	z-index: 20;
+	position: absolute;
+	margin-left: 200px;
+}
+#title{
+	width: 1102px;
+	height: 110px;
+	background-color: rgba(255,255,255,0.2);
+	font-size: 70px;
+	color:#DEB887;
+}
+
+#mid{
+	position: absolute;
+	width: 1100px;
+	height: 1500px;
+	margin-top: 110px;
+	margin-left: 200px;
+	border-top: 4px solid darkgray;
+	border-left: 2px solid darkgray;
+	border-right: 2px solid darkgray;
+	border-bottom: 4px solid darkgray;
+}
+
+#mid .view_pager{
+	position: relative;
+	height: 450px;
+	width: 700px;
+	margin-top: 10px;
+	border: 1px solid red;
+}
+ #mid .view_pager .btn div{
+ 	font-size: 40px;
+ 	color: white;
+ 	position: absolute;
+ 	width: 80px;
+ 	height: 80px;
+ 	margin-top: 155px;
+ 	background-color: rgba(140,140,140,0.5);
+ 	border-radius: 50%;
+ }
+  #mid .view_pager .btn .right_btn{
+  	right: 0px;
+  }
+#mid .view_pager .roll_move{
+	position: relative;
+	left: 0;
+}
+#mid .view_pager .roll_move li{
+	position: absolute;
+	visibility: hidden;
+	float: left;
+}
+
+#mid .view_pager .circle{
+        position: absolute;
+        width: 180px;
+        height: 30px;
+        left:20px;
+        bottom:15px;
+    }
+#mid .view_pager .circle ul{
+		position: absolute;
+    	overflow: hidden;
+        list-style: none;
+        }
+#mid .view_pager .circle ul li{
+		position: relative;
+        background: white;
+        float: left;
+        margin-right:12px;
+        width:20px;
+        height:20px;
+        border-radius: 50%;
+    }
+
+#mid .menue_bg{
+	position: relative;
+	height: 80px;
+	width: 1098px;
+	background-color: #b9def0;
+	border-bottom: 2px solid gray;
+}
+#topic_tab{
+	width: 700px;
+}
+.player_bg{
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+	position: absolute;
+	margin-left: 920px;
+	margin-top: 200px;
+	height: 900px;
+	width: 380px;	
+}
+.player_table a{
+	text-decoration: none;
+
+}
+.player_table a:hover{
+	background-color: #b9def0;
+}
+.player_bg .player_table{
+	float: left;
+	width: 360px;
+}
+
+#mid .bright{
+		background-color: #b9def0;
+}
+
+.player_bg .player_table tr td{
+	border: 1px solid #ffc1c0;
+	padding: 6px;
+}
+.player_bg .player_table tr td .details{
+	font-size: 18px;
+	width: 60px;
+	float: right;
+}
+#mid .menue_bg{
+	position: relative;
+	margin-top: -20px;
+}
+#mid .menue_bg .search_form{
+	margin-top: 20px;
+	margin-left: 110px;
+}
+#mid .menue_bg .search_form .playerName{
+	width: 200px;
+	height: 40px;
+}
+#search_form_sub{
+	width: 80px;
+	height: 35px;
+}
+
+#mid .menue_bg .own_center {
+	position: relative;
+	margin-top: -30px;
+	margin-left: 820px;
+	width: 280px;
+	height: 35px;
+}
+#mid .menue_bg .own_center .welcome_txt{
+	font-size: 22px;
+	color: lightskyblue;
+}
+#mid .menue_bg .own_center .own_center_sub{
+	width: 70px;
+	height: 40px;
+}
+#search_text{
+	height: 30px;
+}
+#own_name{
+	color: aqua;
+}
